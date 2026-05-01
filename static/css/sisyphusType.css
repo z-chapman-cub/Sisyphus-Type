@@ -1,0 +1,63 @@
+#userinput {/*Empty box for user input*/
+  color: transparent;
+  caret-color: transparent;
+}
+#restartButton {/*Empty box for user input*/
+  font-size: 40px
+}
+#nextButton {/*Empty box for user input*/
+  font-size: 40px
+}
+h3 {
+  font-family: 'segoe script';
+  font-size: 60px
+}
+h3[id="result"] {
+  text-transform: uppercase;
+}
+h3[id="level"] {
+  text-transform: uppercase;
+  text-align: center;  /* center text horizontally */
+  font-size: 60px;      /* adjust as you like */
+  color: #433125;
+}
+strong {
+  font-family: 'segoe script';
+  color: #7f8c8d;
+}
+body {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    min-height: 100vh;
+    overflow: hidden;  
+}
+#view {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* let svg overflow freely */
+}
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8000px;
+  height: 8000px;
+  overflow: visible;
+}
+button {
+  background-color: #ffffff; /* background */
+  opacity: 0.7; /* 70% visible (affects text too) */
+  color: #892c25;              /* text color */
+  font-size: 18px;           /* font size */
+  font-weight: bold;         /* thickness */
+  padding: 10px 20px;        /* inner spacing */
+  border: none;              /* remove default border */
+  border-radius: 16px;        /* rounded corners */
+  cursor: pointer;           /* pointer on hover */
+}
